@@ -1,103 +1,142 @@
-# Healthcare Capability Intelligence Pipeline using Databricks
+<div align="center">
 
-## Databricks Accenture Challenge Hackathon 2026  
-### Theme: Data Engineering
+# 🏥 Healthcare Capability Intelligence Pipeline using Databricks
+
+### 🚀 Databricks Accenture Challenge Hackathon 2026  
+### ☁️ Data Engineering • Big Data Analytics • Healthcare Intelligence
+
+<img src="https://img.shields.io/badge/Platform-Databricks-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Engine-Apache%20Spark-red?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Storage-Delta%20Lake-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Visualization-Power%20BI-yellow?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Theme-Data%20Engineering-success?style=for-the-badge" />
 
 ---
 
-## Team Information
+### 🧠 Intelligent Healthcare Analytics & Document Parsing Pipeline
+
+</div>
+
+---
+
+# 📌 Team Information
 
 | Field | Details |
 |---|---|
-| Team Name | KRIPA |
-| University | KIIT University |
-| Hackathon | Databricks Accenture Challenge Hackathon 2026 |
-| Theme | Data Engineering |
+| 👥 Team Name | KRIPA |
+| 🏫 University | KIIT University |
+| 🏆 Hackathon | Databricks Accenture Challenge Hackathon 2026 |
+| 🎯 Theme | Data Engineering |
 
 ---
 
-## Overview
+# 📌 Overview
 
-This project is a healthcare analytics and intelligent document parsing pipeline developed using Databricks, Apache Spark, Delta Lake, SQL Analytics, and Power BI.
-
-The objective of the project is to process healthcare treatment data, extract meaningful healthcare capabilities from unstructured text, and visualize analytical insights through dashboards.
-
-This project was created as part of the Databricks Accenture Challenge Hackathon 2026 under the Data Engineering theme.
-
----
-
-## Problem Statement
-
-Healthcare datasets often contain unstructured treatment descriptions and medical information that are difficult to analyze directly. Manual interpretation of healthcare capabilities is inefficient and time-consuming.
-
-This project demonstrates how Databricks can be used to:
-
-- Process healthcare datasets
-- Perform intelligent healthcare feature extraction
-- Store processed data using Delta Lake
-- Run SQL-based analytics
-- Create interactive dashboards
-- Generate structured healthcare insights
-
----
-
-## Solution Overview
-
-The project processes healthcare treatment datasets using Databricks notebooks and Apache Spark.
-
-A custom Intelligent Document Parsing (IDP) logic was implemented using Python and Spark UDFs to automatically identify healthcare-related capabilities such as Surgery, Cardiology, Emergency Care, Imaging, Neurology, and Radiology from free-form treatment descriptions.
-
-The processed dataset was stored using Delta Lake tables, analyzed using SQL queries, and finally connected to Power BI for dashboard visualization.
-
----
-
-## Technologies Used
+This project is a healthcare analytics and intelligent document parsing pipeline developed using:
 
 - Databricks
 - Apache Spark
-- Python
 - Delta Lake
-- SQL
+- SQL Analytics
 - Power BI
-- Kaggle Healthcare Dataset
+
+The project processes healthcare treatment data, extracts meaningful healthcare capabilities from unstructured text, and generates analytical insights through scalable data engineering workflows.
+
+The system demonstrates how Databricks can be used for:
+- healthcare analytics
+- big data processing
+- intelligent feature extraction
+- SQL-based analysis
+- dashboard visualization
 
 ---
 
-## Project Workflow
+# ❗ Problem Statement
+
+Healthcare datasets often contain unstructured treatment descriptions and medical information that are difficult to analyze directly.
+
+Manual interpretation is:
+- inefficient
+- time-consuming
+- difficult to scale
+
+This project demonstrates how Databricks can be used to:
+
+✅ Process healthcare datasets  
+✅ Extract healthcare capabilities intelligently  
+✅ Store structured data using Delta Lake  
+✅ Run SQL-based analytics  
+✅ Generate interactive dashboards  
+✅ Transform unstructured text into analytical insights  
+
+---
+
+# 🎯 Project Objectives
+
+- Build a scalable healthcare analytics workflow
+- Process healthcare treatment datasets
+- Perform Intelligent Document Parsing (IDP)
+- Store processed data in Delta Lake
+- Execute SQL analytics
+- Visualize insights using Power BI
+
+---
+
+# 🏗️ Project Workflow
 
 ```text
 Healthcare CSV Dataset
-        ↓
+            │
+            ▼
 Databricks Notebook (PySpark)
-        ↓
+            │
+            ▼
 Data Cleaning & Preprocessing
-        ↓
+            │
+            ▼
 Intelligent Document Parsing (IDP)
-        ↓
+            │
+            ▼
 Delta Lake Storage
-        ↓
+            │
+            ▼
 SQL Analytics
-        ↓
+            │
+            ▼
 Power BI Dashboard
 ```
 
 ---
 
-## Main Features
+# ⚙️ Technologies Used
 
-- Healthcare dataset preprocessing
-- Intelligent healthcare capability extraction
-- Delta Lake integration
-- SQL analytics queries
-- Power BI dashboard visualization
-- Interactive healthcare analysis
-- KPI-based healthcare insights
+| Technology | Purpose |
+|---|---|
+| Databricks | Cloud Data Engineering Platform |
+| Apache Spark | Big Data Processing |
+| Python | Core Programming |
+| Delta Lake | Structured Data Storage |
+| SQL | Analytical Querying |
+| Power BI | Dashboard Visualization |
+| Kaggle Dataset | Healthcare Dataset Source |
 
 ---
 
-## Intelligent Document Parsing (IDP)
+# 🚀 Main Features
 
-The project uses custom Python logic and Spark UDFs to identify healthcare-related features such as:
+✅ Healthcare dataset preprocessing  
+✅ Intelligent healthcare capability extraction  
+✅ Spark DataFrame processing  
+✅ Delta Lake integration  
+✅ SQL analytics queries  
+✅ Interactive Power BI dashboard  
+✅ KPI-based healthcare insights  
+
+---
+
+# 🧠 Intelligent Document Parsing (IDP)
+
+The project uses custom Python logic and Spark UDFs to identify healthcare-related capabilities such as:
 
 - Surgery
 - Cardiology
@@ -108,238 +147,197 @@ The project uses custom Python logic and Spark UDFs to identify healthcare-relat
 - Dialysis
 - Orthopedic Care
 
-These healthcare capabilities are extracted from free-form healthcare treatment descriptions and stored in a structured column called:
+These features are extracted from free-form healthcare treatment descriptions and stored in:
 
 ```text
 detected_features
 ```
 
-This converts unstructured healthcare text into structured analytical information.
+This transforms unstructured healthcare text into structured analytical information.
 
 ---
 
-## SQL Analytics
+# 📊 SQL Analytics
 
-The following SQL analyses were performed:
+The following analytical queries were performed:
 
 - Treatment type distribution
 - Healthcare capability analysis
 - Average treatment cost analysis
-- Healthcare feature frequency analysis
-- Total healthcare expenditure analysis
+- Feature frequency analysis
+- Healthcare expenditure analysis
 
-Visualizations such as pie charts and bar charts were generated directly using Databricks SQL.
+Visualizations such as:
+- pie charts
+- bar charts
+- KPI metrics
+
+were generated using Databricks SQL and Power BI.
 
 ---
 
-## Dashboard Features
+# 📈 Power BI Dashboard
 
-The Power BI dashboard includes:
+The dashboard provides interactive healthcare analytics visualizations.
 
-- Treatment distribution chart
-- Healthcare feature pie chart
-- Cost analysis charts
+### Dashboard Features
+
+- Treatment distribution charts
+- Healthcare capability analysis
+- Cost analysis visualizations
 - KPI cards
 - Interactive filters
-- Healthcare analytics visualizations
+- Healthcare insight dashboards
 
 ---
 
-## Databricks Components Used
+# ☁️ Databricks Components Used
 
-- Databricks Notebooks
-- Apache Spark
-- Delta Lake
-- Databricks SQL Warehouse
-
----
-
-## Why Databricks
-
-Databricks provides an integrated environment for:
-
-- Large-scale data processing
-- Spark-based analytics
-- Collaborative notebook workflows
-- Delta Lake storage
-- SQL analytics
-- Scalable healthcare data engineering workflows
-
-This makes Databricks highly suitable for healthcare analytics and intelligent document parsing applications.
+| Component | Usage |
+|---|---|
+| Databricks Notebooks | Workflow Development |
+| Apache Spark | Data Processing |
+| Delta Lake | Structured Storage |
+| Databricks SQL Warehouse | SQL Analytics |
 
 ---
 
-## What Was Built During the Hackathon
+# 🌍 Why Databricks?
 
-The following components were implemented during the hackathon:
+Databricks provides:
+
+✅ scalable Spark processing  
+✅ collaborative notebook workflows  
+✅ Delta Lake integration  
+✅ SQL analytics support  
+✅ cloud-based data engineering environment  
+
+making it highly suitable for healthcare analytics systems.
+
+---
+
+# 🚀 What Was Built During the Hackathon
+
+The following components were developed during the hackathon:
 
 - Dataset ingestion pipeline
 - Data preprocessing workflow
-- Intelligent healthcare capability extraction
+- Intelligent healthcare feature extraction
 - Delta Lake integration
 - SQL analytics queries
 - Power BI dashboard
 - Healthcare analytics visualizations
 
-Public healthcare datasets were used as input data.
-
 ---
 
-## Databricks-Specific Implementation Details
+# ⚙️ Databricks-Specific Implementation Details
 
-The project was implemented using Databricks notebooks with Python and Apache Spark.
+The project workflow included:
 
-Workflow included:
-
-1. Dataset loading into Spark DataFrames
-2. Missing value handling
-3. Intelligent parsing using Python UDFs
-4. Delta Lake table creation
-5. SQL analytics execution
-6. CSV export for Power BI integration
+- Dataset loading into Spark DataFrames
+- Missing value handling
+- Intelligent parsing using Python UDFs
+- Delta table creation
+- SQL analytics execution
+- CSV export for Power BI integration
 
 The notebook workflow was organized into:
-
-- Dataset loading
-- Preprocessing
+- dataset loading
+- preprocessing
 - IDP logic
 - Delta storage
 - SQL analytics
-- Dashboard preparation
+- dashboard preparation
 
 ---
 
-## Technical Challenges Faced
+# 🚨 Technical Challenges Faced
 
-### Schema Mismatch Issues
+## ⚠️ Schema Mismatch Issues
 
 Delta table schema conflicts occurred during overwrite operations.
 
-### Solution
-
-Used overwrite schema handling during Delta Lake table creation.
+### ✅ Solution
+Used overwrite schema handling during Delta Lake creation.
 
 ---
 
-### Missing Value Handling
+## 📉 Missing Value Handling
 
 Healthcare datasets contained incomplete records.
 
-### Solution
-
-Used Spark DataFrame preprocessing and fillna() operations.
-
----
-
-### Feature Extraction Accuracy
-
-Different treatment descriptions required proper healthcare keyword detection.
-
-### Solution
-
-Implemented rule-based healthcare feature extraction using Spark UDFs.
+### ✅ Solution
+Used:
+- Spark preprocessing
+- fillna()
+- structured transformations
 
 ---
 
-## Performance & Scalability Considerations
+## 🧠 Feature Extraction Accuracy
 
-- Apache Spark enabled scalable healthcare data processing
-- Delta Lake improved structured storage reliability
-- Spark DataFrame transformations improved processing efficiency
-- The architecture can be extended for:
-  - Real-time streaming
-  - Machine learning models
-  - Cloud deployment
-  - Large-scale healthcare analytics
+Healthcare treatment descriptions required proper keyword detection.
+
+### ✅ Solution
+Implemented rule-based feature extraction using Spark UDFs.
 
 ---
 
-## How to Run the Project
+# ⚡ Performance & Scalability
 
-### Requirements
+The architecture supports:
 
-- Databricks Community Edition
-- Python Notebook
-- Apache Spark
-- Power BI Desktop
+✅ scalable Spark DataFrame processing  
+✅ efficient Delta Lake storage  
+✅ modular analytics workflows  
+✅ extensibility for large-scale healthcare analytics  
 
----
-
-### Steps
-
-#### 1. Open Databricks Workspace
-
-Create a new Python notebook.
-
-#### 2. Upload Dataset
-
-Upload healthcare CSV dataset into Databricks workspace.
-
-#### 3. Run Notebook Cells Sequentially
-
-Run:
-- Dataset loading
-- Preprocessing
-- Intelligent parsing
-- Delta table creation
-- SQL analytics
-
-#### 4. Export Processed Dataset
-
-Export processed dataset as CSV.
-
-#### 5. Open Power BI
-
-Import exported CSV into Power BI.
-
-#### 6. Create Dashboard
-
-Build healthcare analytics visualizations.
+Future scalability includes:
+- real-time streaming
+- machine learning models
+- cloud deployment
 
 ---
 
-## Performance Highlights
+# 🚀 Future Improvements
 
-- Efficient Spark DataFrame processing
-- Structured Delta Lake storage
-- SQL-based analytical querying
-- Interactive Power BI visualization workflow
-- Modular notebook pipeline
-
----
-
-## Future Improvements
-
-- Real-time healthcare data streaming
-- Machine learning prediction models
-- AI-based medical recommendation systems
-- NLP-powered healthcare text understanding
+- Real-time healthcare streaming
+- Machine learning prediction systems
+- NLP-powered healthcare understanding
 - Cloud deployment
-- Advanced healthcare KPI monitoring
+- Advanced KPI monitoring
 
 ---
 
-## Conclusion
+# 📚 Hackathon Information
 
-This project demonstrates a simple but effective healthcare data engineering workflow using Databricks, Apache Spark, Delta Lake, SQL analytics, and Power BI.
-
-The project successfully transforms unstructured healthcare treatment data into structured analytical insights through Intelligent Document Parsing and analytics workflows.
-
----
-
-## Hackathon Submission Information
-
-| Category | Details |
+| Field | Details |
 |---|---|
-| Hackathon | Databricks Accenture Challenge Hackathon 2026 |
-| Theme | Data Engineering |
-| Project Type | Healthcare Analytics & Intelligent Document Parsing |
-| Platform | Databricks Community Edition |
+| 🏆 Hackathon | Databricks Accenture Challenge Hackathon 2026 |
+| 🎯 Theme | Data Engineering |
+| ☁️ Platform | Databricks Community Edition |
+| 🏥 Project Type | Healthcare Analytics & IDP |
 
 ---
 
-## Author
+# 👨‍💻 Team KRIPA
 
-### Team KRIPA
+## 🔹 Ampa Ranjan
 
-Databricks Accenture Challenge Hackathon 2026
+KIIT University
+
+---
+
+# 🔒 License
+
+## ⚠️ MIT License
+
+This project is licensed under the MIT License.
+
+---
+
+<div align="center">
+
+# ⭐ Databricks • Big Data • Healthcare Analytics ⭐
+
+</div>
